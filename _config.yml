@@ -10,23 +10,57 @@ baseurl: ""
 
 # Theme (minimal-mistakes)
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: default
+
+  # _config.yml
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - docs
+  - test
+  - scripts
+  - tools
+  - .github
+  - .sass-cache
+  - CHANGELOG
+  - LICENSE
+  - README
+  - _config.yml
+  - package.json
+  - yarn.lock
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - assets/bower.json
 
 include:
   - _pages
-# Layout
+
+# Minimal Mistakes settings
+minimal_mistakes_skin: default
 layout: single
 author_profile: true
+
+
+# Collections
 collections:
   projects:
     output: true
+    permalink: /projects/:title/
   research:
     output: true
+    permalink: /research/:title/
 
+# Plugins
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-redirect-from
+
 
 # Navigation
 navigation:
@@ -52,4 +86,5 @@ social:
     url: mailto:bryan.garcia.b9r@gmail.com
   - name: IEEE
     icon: "fab fa-leanpub"
-    url: https://ieeexplore.ieee.org/author/37086357700
+    url: https://ieeexplore.ieee.org/author/534813212579107
+
