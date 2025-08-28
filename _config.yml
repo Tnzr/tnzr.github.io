@@ -1,0 +1,42 @@
+# _config.yml
+title: Bryan Garcia Rodriguez
+name: Bryan Garcia Rodriguez
+description: "Robotics Research Engineer | Computer Vision & ML | Sustainable Automation"
+email: bryan.garcia.b9r@gmail.com
+github_username: tnzr
+linkedin_username: bryan-garcia-rodriguez-b2803b186
+url: "https://tnzr.github.io"
+baseurl: ""
+
+# Theme (minimal-mistakes)
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+navigation:
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog (Coming)"
+    url: /blog/
+
+# Social
+social:
+  - name: GitHub
+    icon: "fab fa-github"
+    url: https://github.com/tnzr
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: https://linkedin.com/in/bryan-garcia-rodriguez-b2803b186
+  - name: Email
+    icon: "far fa-envelope"
+    url: mailto:bryan.garcia.b9r@gmail.com
+  - name: IEEE
+    icon: "fab fa-leanpub"
+    url: https://ieeexplore.ieee.org/author/37086357700

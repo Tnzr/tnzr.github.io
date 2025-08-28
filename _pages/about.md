@@ -1,0 +1,75 @@
+---
+layout: single
+title: "About Me"
+permalink: /about/
+---
+
+<h1 class="page__title">Bryan Garcia Rodriguez</h1>
+<p class="page__meta">Robotics Research Engineer | PhD Aspirant | Founder of AGIS</p>
+
+<div class="page__content">
+  <p>
+    I'm a <strong>Robotics Research Engineer</strong> specializing in <strong>Computer Vision, Machine Learning, and Embedded Systems</strong>, with a mission to accelerate sustainable automation and democratize access to food, health, and AI.
+  </p>
+
+  <p>
+    Currently pursuing my <strong>M.S. in Computer Engineering at UCF</strong>, I conduct research in drone state estimation, medical image segmentation, and AI-driven greenhouse systems. I'm preparing to publish research in <strong>IEEE and BMC Biotechnology</strong> before applying to PhD programs.
+  </p>
+
+  <p>
+    I'm the <strong>Executive Director of Pioneer Innovations Collective</strong>, an R&D nonprofit, and founder of <strong>AGIS</strong> — an open-source framework for <em>Autonomous Greenhouse Integrated Systems</em> aimed at making food production sustainable and accessible.
+  </p>
+
+  <hr />
+
+  <h2>Research Statement</h2>
+  <p>
+    My goal is to bridge academia and industry by developing <strong>open, scalable AI systems</strong> that solve real-world problems in healthcare, agriculture, and robotics. I believe automation should be <strong>inclusive, sustainable, and community-driven</strong>.
+  </p>
+
+  <h2>Skills & Expertise</h2>
+  <ul>
+    <li><strong>AI/ML:</strong> PyTorch, UNet, Federated Learning, GANs, Neural Processes</li>
+    <li><strong>Computer Vision:</strong> OpenCV, Semantic Segmentation, Pose Estimation, Optical Flow</li>
+    <li><strong>Robotics:</strong> Path Planning (Hermes), Inverse Kinematics (GDIKS), ROS, Drone UI</li>
+    <li><strong>Embedded:</strong> C++, Raspberry Pi, ESP32, PCB Design, HAL Development</li>
+    <li><strong>Systems:</strong> Linux, Git, Agile/Scrum, CAD (Blender), Data Structures</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    <a href="mailto:bryan.garcia.b9r@gmail.com">📧 Email</a> | 
+    <a href="https://linkedin.com/in/bryan-garcia-rodriguez-b2803b186">💼 LinkedIn</a> | 
+    <a href="https://github.com/tnzr">🐙 GitHub</a>
+  </p>
+</div>
+
+<h2>Support My Mission</h2>
+<p><strong>Pioneer Innovations Collective</strong> is building open-source, sustainable technologies to fight food insecurity, energy poverty, and healthcare inequality. With your support, we can deploy AGIS greenhouses, launch smart health tools, and empower underserved communities worldwide.</p>
+
+<div class="donation-links" style="display: flex; flex-wrap: wrap; gap: 15px; margin: 30px 0;">
+  
+  <!-- GoFundMe -->
+  <a href="https://www.gofundme.com/f/pioneer-innovations-collective-opensource-solutions" target="_blank" rel="noopener">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.gofundme.com/FjLQkQh1q7JY6o1JxY7jZJjKj6M=/0x0:1000x1000/https%3A%2F%2Fd2g8igdw686xgo.cloudfront.net%2F93310813_1754186985612570_r.png" 
+         alt="GoFundMe - Pioneer Innovations Collective" 
+         style="width: 160px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
+
+  <!-- TipHub -->
+  <a href="https://tiphub.co/pioneer-innovations-collective-r-d-social-impact-early-startup-/673" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Donate_icon.png" 
+         alt="TipHub - Support on TipHub" 
+         style="width: 150px; border-radius: 8px; background: #f8f9fa; padding: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
+
+  <!-- Buy Me a Coffee -->
+  <a href="https://www.buymeacoffee.com/tnzr" target="_blank" rel="noopener">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" 
+         alt="Buy Me a Coffee" 
+         style="width: 180px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
+
+</div>
+
+<p><em>All contributions fund R&D for AGIS, VitalVision, and open-source tools that advance sustainable automation and equitable access to technology.</em></p>

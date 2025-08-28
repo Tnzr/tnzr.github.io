@@ -1,0 +1,18 @@
+---
+title: "AGIS - Autonomous Greenhouse"
+permalink: /projects/agis/
+excerpt: "Open-Source Sustainable Farming Framework"
+---
+
+<h2>AGIS: Autonomous Greenhouse Integrated System</h2>
+<p><strong>Goal:</strong> Make greenhouses the next household appliance for sustainable food production.</p>
+
+<ul>
+  <li>Developing an <strong>embedded C++ HAL and API</strong> to lower entry barriers for agricultural automation.</li>
+  <li>Using <strong>Computer Vision</strong> to detect mycelium contamination and monitor plant health.</li>
+  <li>WebApp + XR Integration with <strong>Digital Twin</strong> for remote monitoring.</li>
+  <li>Open-source framework for community-driven research in sustainable agriculture.</li>
+</ul>
+
+<p>👉 <a href="https://github.com/Tnzr/AGIS">GitHub Repository</a></p>
+<p>📄 <a href="/assets/papers/AGIS-Paper.pdf">Published Paper (IEEE Format)</a></p>
