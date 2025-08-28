@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAGE_PERSONAL_ACCESS_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages   # Deploy to main branch (for GitHub Pages)
           force_orphan: false
