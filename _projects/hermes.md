@@ -14,4 +14,7 @@ excerpt: "Electromagnetic-Inspired Motion Planning"
   <li>Potential applications: drones, surgical robots, autonomous vehicles.</li>
 </ul>
 
-<p>🧠 <em>Published in research statement; implementation in C++/Python.</em></p>
+<p>🧠 <em>Published in research statement; implementation in Python.</em></p>
+<div class="text-center">
+  <a href="https://github.com/Tnzr/HERMES" class="btn btn--github"><i class="fab fa-github"></i> View on GitHub</a>
+</div>
