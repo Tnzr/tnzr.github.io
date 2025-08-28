@@ -9,7 +9,18 @@ url: "https://tnzr.github.io"
 baseurl: ""
 
 # Theme (minimal-mistakes)
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+
+include:
+  - _pages
+
+collections:
+  projects:
+    output: true
+  research:
+    output: true
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

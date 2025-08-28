@@ -1,0 +1,44 @@
+# .github/workflows/deploy.yml
+name: Deploy Jekyll Site
+
+on:
+  push:
+    branches: [ main ]  # Trigger on push to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Fetch the submodule (your local minimal-mistakes copy)
+      - name: Checkout Submodule
+        run: |
+          git config --global --add safe.directory /github/workspace
+          git submodule init
+          git submodule update --remote --recursive
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true  # Cache gems
+
+      - name: Install Dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll Site
+        run: |
+          bundle exec jekyll build --source . --destination ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: main   # Deploy to main branch (for GitHub Pages)
+          force_orphan: false
